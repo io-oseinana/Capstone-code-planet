@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 @media (min-width: 320px) {
+  body.active {
+    overflow: hidden;
+  }
+
   #header .top-header {
     display: none;
   }
@@ -176,6 +180,12 @@
     margin: 2rem 0;
   }
 
+  .info .bottom-line {
+    border: 1px solid #ec5242;
+    width: 60px;
+    margin: 10px 0 22px 0;
+  }
+
   #course .bottom-line {
     border: 1px solid #ec5242;
     width: 60px;
@@ -225,6 +235,81 @@
     text-align: center;
     margin-bottom: 34px;
   }
+
+  .about {
+    text-align: center;
+
+    /* align-items: center; */
+  }
+
+  .about-support-text {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #272a31;
+    border: 1px solid #e6e6e3;
+    padding: 21px 24px 21px 41px;
+    text-align: center;
+    line-height: 20px;
+    margin: 1rem 0 2rem 0;
+    background-color: #fff;
+  }
+
+  .about .about-email {
+    color: #272a31;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    margin-top: 30px;
+  }
+
+  .info .title {
+    width: 284px;
+  }
+
+  .bg-logo {
+    border: 1px solid #e6e6e3;
+    padding: 41px;
+  }
+
+  .work1 {
+    background-image:
+      linear-gradient(to right, rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.7)),
+      url(/img/bg/karl-pawlowicz-QUHuwyNgSA0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 97% 109%;
+    background-position: 124% 54%;
+    height: 186px;
+    width: 410px;
+    margin: 29px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .past {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    border-top: 1px solid #eeeee7;
+  }
+
+  /* .work1 img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+  } */
 }
 
 * {
