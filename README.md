@@ -1,6 +1,7 @@
 # Code-Planet Web development site
 
-> Code Planet is a web development site for learning coureses like Html, CSS, JavaScript and thing that is related to web development. Code Planet got you, we are here to help you no matter who you are. Join the big family and have an amazing journey in tech world 🌍️.
+> Code Planet is a web development site for learning courses like Html, CSS, JavaScript and anything that is related to web development. Code Planet got you, we are here to help you no matter who you are. Join the big family and have an amazing journey in tech world 🌍️.
+
 ## Mobile Version
   
 ## Desktop Version
@@ -23,17 +24,17 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-  ```
+  ```bash
    git clone https://github.com/io-oseinana/Capstone-code-planet.git
   ```
 
-  ```
+  ```bash
    cd Capstone-code-planet
   ```
 
 ## Author
 
-**Osei-Bonsu Isaac**
+__Osei-Bonsu Isaac__
 
 - GitHub: [@io-oseinana](https://github.com/io-oseinana)
 - Twitter: [@IsaacOs87131165](https://twitter.com/IsaacOs87131165)
