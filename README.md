@@ -2,9 +2,7 @@
 
 > Code Planet is a web development site for learning courses like Html, CSS, JavaScript and anything that is related to web development. Code Planet got you, we are here to help you no matter who you are. Join the big family and have an amazing journey in tech world 🌍️.
 
-## Mobile Version
-  
-## Desktop Version
+![codeplanet](https://user-images.githubusercontent.com/105572944/196692598-1dd36e41-c207-43b7-9af3-1d9d90b6fc22.jpg)
   
 ## Built With
 
