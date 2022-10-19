@@ -187,8 +187,8 @@
   }
 
   .about-partner h2 {
-    margin-top: -102px;
-    margin-bottom: 31px;
+    margin-top: -53px;
+    margin-bottom: -19px;
   }
 
   #course h2 {
@@ -210,6 +210,7 @@
   }
 
   .info .bottom-line,
+  .partner-content .bottom-line,
   #course .bottom-line,
   #partner .bottom-line {
     border: 1px solid #ec5242;
@@ -366,6 +367,12 @@
     width: 284px;
   }
 
+  .info-text {
+    width: 315px;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+
   .bg-logo {
     border: 1px solid #e6e6e3;
     padding: 41px;
@@ -409,9 +416,11 @@
   }
 
   .about-partner .partner-container {
-    display: grid;
+    display: flex;
     flex-direction: row;
-    grid-template-columns: repeat(3, 126px);
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 13px;
   }
 
   #partner .partner-container {
@@ -433,6 +442,7 @@
 
   .partner-container .partner-item {
     margin-left: 16px;
+    width: 110px;
   }
 
   #partner .partner-item svg {
@@ -447,6 +457,16 @@
     background-color: #272a31;
     color: #e6e6e3;
     height: 35vh;
+  }
+
+  .about-partner .partner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e6e6e3;
+    gap: 40px;
+    height: 25vh;
   }
 
   .about-copyright {
@@ -732,6 +752,7 @@
 
   #partner .partner-container {
     display: flex;
+    justify-content: center;
   }
 
   /* Boxions logo styling copied from their site */
