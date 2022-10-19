@@ -19,20 +19,6 @@
     transition: all 0.3s ease;
   }
 
-  #header nav button {
-    position: fixed;
-    left: 24px;
-    top: 10px;
-    border: none;
-    /* background: transparent; */
-    font-size: 34px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    background-color: #fbfbfb;
-    border-radius: 10px;
-    height: 40px;
-  }
-
   #header nav button .bx-x {
     display: none;
     position: absolute;
@@ -107,16 +93,28 @@
     height: 100vh;
     width: 100%;
     background-color: #fbfbfb;
-    background-image: url(/img/bg-icons/code-alt-regular-60.png),
+    background-image:
+      url(/img/bg-icons/code-alt-regular-60.png),
       url(/img/bg-icons/code-block-regular-60.png),
-      url(/img/bg-icons/css3-logo-60.png), url(/img/bg-icons/html5-logo-60.png),
+      url(/img/bg-icons/css3-logo-60.png),
+      url(/img/bg-icons/html5-logo-60.png),
       url(/img/bg-icons/java-logo-60.png),
       url(/img/bg-icons/javascript-logo-60.png),
-      url(/img/bg-icons/php-logo-60.png), url(/img/bg-icons/python-logo-60.png),
+      url(/img/bg-icons/php-logo-60.png),
+      url(/img/bg-icons/python-logo-60.png),
       url(/img/bg-icons/react-logo-60.png),
       url(/img/bg-icons/nodejs-logo-60.png);
-    background-position: 93.18% 9%, 97% 43.52%, 8% 97%, 58% 66%, 85% 95%,
-      15% 42%, 82% 32%, 0% 65%, 57% 3%, 21% 8%;
+    background-position:
+      93.18% 9%,
+      97% 43.52%,
+      8% 97%,
+      58% 66%,
+      85% 95%,
+      15% 42%,
+      82% 32%,
+      0% 65%,
+      57% 3%,
+      21% 8%;
     background-repeat: no-repeat;
   }
 
@@ -140,6 +138,7 @@
     font-weight: 700;
     background-image: url(https://cdn.pixabay.com/photo/2017/03/27/21/38/sunset-2180346__480.jpg);
     -webkit-background-clip: text;
+    background-clip: text;
     background-repeat: no-repeat;
     text-transform: uppercase;
     color: transparent;
@@ -179,6 +178,19 @@
     background-image: url(/img/bg/coures.svg);
   }
 
+  .features h2 {
+    margin-top: 20px;
+  }
+
+  .past h2 {
+    margin-top: 50px;
+  }
+
+  .about-partner h2 {
+    margin-top: -102px;
+    margin-bottom: 31px;
+  }
+
   #course h2 {
     color: #fff;
     font-size: 2rem;
@@ -186,26 +198,27 @@
     margin: 2rem 0;
   }
 
-  /* {
+  .features .bottom-line {
+    margin: 12px 0 22px 0;
     border: 1px solid #ec5242;
     width: 60px;
-    margin: 10px 0 22px 0;
-  } */
+  }
 
-  #course .bottom-line,
-  #partner .bottom-line,
   .info .bottom-line,
-  .features .bottom-line {
+  .past .bottom-line {
+    margin-top: 20px;
+  }
+
+  .info .bottom-line,
+  #course .bottom-line,
+  #partner .bottom-line {
     border: 1px solid #ec5242;
     width: 60px;
     margin: -10px 0 22px 0;
   }
-  .features .bottom-line {
-    margin: 12px 0 22px 0;
-  }
+
   .course-content {
     margin: 16px;
-    /* width: 400px; */
   }
 
   .course-content .course-item {
@@ -254,18 +267,10 @@
     align-items: center;
   }
 
-  .features h2 {
-    margin-top: 20px;
-  }
-
-  /* .features-container {
-   
-  } */
-
   .features-container .feature__item {
     display: flex;
     gap: 20px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 0 3px;
     margin: 16px;
     padding: 10px;
     border-radius: 5px;
@@ -292,11 +297,10 @@
   }
 
   .features button {
-    /* border: none; */
     background: none;
     border: 1px solid #e6e6e3;
     width: 94%;
-    padding: 1rem 0rem;
+    padding: 1rem 0;
     margin-bottom: 50px;
     font-size: 1.5rem;
     border-radius: 0.3rem;
@@ -312,13 +316,23 @@
     font-size: 34px;
     margin-top: 5px;
     color: #fd6b32;
-    /* text-align: center; */
+  }
+
+  #header nav button {
+    position: fixed;
+    left: 24px;
+    top: 10px;
+    border: none;
+    font-size: 34px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #fbfbfb;
+    border-radius: 10px;
+    height: 40px;
   }
 
   .about {
     text-align: center;
-
-    /* align-items: center; */
   }
 
   .about-support-text {
@@ -358,7 +372,8 @@
   }
 
   .work1 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         to right,
         rgba(236, 82, 66, 0.8),
         rgba(236, 82, 66, 0.7)
@@ -366,7 +381,7 @@
       url(/img/bg/karl-pawlowicz-QUHuwyNgSA0-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: 97% 109%;
-    background-position: 50% 52%;;
+    background-position: 50% 52%;
     height: 186px;
     width: 325px;
     margin: 29px;
@@ -388,38 +403,42 @@
     width: 100%;
   }
 
-  .past h2 {
-    margin-top: 50px;
-  }
-
   .partner-section,
   .copyright-section {
     display: none;
   }
-  .info .bottom-line,
-  .past .bottom-line {
-    margin-top: 20px;
+
+  .about-partner .partner-container {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: repeat(3, 126px);
   }
+
   #partner .partner-container {
     display: flex;
     flex-wrap: wrap;
   }
-  .partner-container .partner-item {
-    margin-left: 16px;
-  }
-  #partner .partner-item svg {
-    width: 160px;
-  }
+
   .Navigation_dark__qLt5i,
   .Navigation_logo__FhJi4 svg,
   .Navigation_logo_text__RGWu_ {
     fill: #fff;
   }
+
   .Navigation_container__rUgWS,
   .Navigation_logo__FhJi4 svg,
   .Navigation_logo_primary__St47_ {
     fill: #ff328b;
   }
+
+  .partner-container .partner-item {
+    margin-left: 16px;
+  }
+
+  #partner .partner-item svg {
+    width: 160px;
+  }
+
   .about-partner {
     display: flex;
     flex-direction: column;
@@ -428,17 +447,6 @@
     background-color: #272a31;
     color: #e6e6e3;
     height: 35vh;
-  }
-
-  .about-partner .partner-container {
-    display: grid;
-    flex-direction: row;
-    grid-template-columns: repeat(3,126px);
-  }
-
-  .about-partner h2 {
-    margin-top: -102px;
-    margin-bottom: 31px;
   }
 
   .about-copyright {
@@ -481,10 +489,15 @@
     display: none;
   }
 }
+
 @media (min-width: 768px) {
   #header .top-header {
     display: block;
     background-color: #272a31;
+  }
+
+  .features button {
+    display: none;
   }
 
   #header nav button {
@@ -511,7 +524,7 @@
     align-items: center;
     padding: 1rem;
     background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px -2px 6px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -2px 6px;
     height: 43px;
   }
 
@@ -531,29 +544,27 @@
     display: block;
   }
 
-   nav .logo img {
+  nav .logo img {
     width: 220px;
     height: 46px;
   }
 
-
   #landing {
     position: relative;
-    /* display: flex; */
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     height: 85vh;
-    /* background-image: url(/img/bg-icons/code-alt-regular-60.png),
-      url(/img/bg-icons/code-block-regular-60.png),
-      url(/img/bg-icons/css3-logo-60.png), url(/img/bg-icons/html5-logo-60.png),
-      url(/img/bg-icons/java-logo-60.png),
-      url(/img/bg-icons/javascript-logo-60.png),
-      url(/img/bg-icons/php-logo-60.png), url(/img/bg-icons/python-logo-60.png),
-      url(/img/bg-icons/react-logo-60.png),
-      url(/img/bg-icons/nodejs-logo-60.png); */
-    background-position: 80.18% 9%, 88% 59.52%, 5% 87%, 56% 60%, 71% 90%,
-      13% 35%, 77% 37%, 21% 58%, 52% 36%, 44% 11%;
+    background-position:
+      80.18% 9%,
+      88% 59.52%,
+      5% 87%,
+      56% 60%,
+      71% 90%,
+      13% 35%,
+      77% 37%,
+      21% 58%,
+      52% 36%,
+      44% 11%;
     background-repeat: no-repeat;
     background-color: #fbfbfb;
   }
@@ -581,6 +592,7 @@
     width: 875px;
     background-image: url(https://cdn.pixabay.com/photo/2017/03/27/21/38/sunset-2180346__480.jpg);
     -webkit-background-clip: text;
+    background-clip: text;
     background-repeat: no-repeat;
     text-transform: uppercase;
     color: transparent;
@@ -601,16 +613,10 @@
 
   .landing-content .offer {
     font-size: 2.5rem;
-    /* font-weight: 900; */
-    /* color: #272a31; */
-    /* margin-bottom: 2rem; */
   }
 
   .landing-content .avenue {
     font-size: 1.5rem;
-    /* font-weight: 500; */
-    /* color: #272a31; */
-    /* margin-left: 24px; */
   }
 
   #course .course-container {
@@ -634,7 +640,6 @@
   .course-item .inline-item {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
   }
 
   #course .join-us {
@@ -646,7 +651,6 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* justify-content: space-around; */
     align-items: center;
     background: #fbfbfb;
     height: 85vh;
@@ -670,9 +674,6 @@
     display: flex;
   }
 
-  .features button {
-    display: none;
-  }
 
   .about {
     display: flex;
@@ -734,14 +735,6 @@
     display: flex;
   }
 
-  .partner-container .partner-item {
-    margin-left: 45px;
-  }
-
-  #partner .partner-item svg {
-    width: 160px;
-  }
-
   /* Boxions logo styling copied from their site */
 
   .Navigation_dark__qLt5i,
@@ -756,10 +749,13 @@
     fill: #ff328b;
   }
 
-  /* .partner-section,
-  .copyright-section {
-    display: unset;
-  } */
+  .partner-container .partner-item {
+    margin-left: 45px;
+  }
+
+  #partner .partner-item svg {
+    width: 160px;
+  }
 
   .partner-section {
     display: flex;
@@ -803,12 +799,9 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    /* text-align: center; */
     gap: 24px;
-    /* background: #272a31; */
     height: 25vh;
     color: #e6e6e3;
-    /* margin-top: 7rem; */
   }
 
   .home-cp {
@@ -845,37 +838,36 @@
     margin: 10px;
   }
 
-
-  .about-copyright  .copyright-container .copyright-logo {
+  .about-copyright .copyright-container .copyright-logo {
     display: flex;
     font-size: 54px;
   }
 
-  .about-copyright  .copyright-logo p {
+  .about-copyright .copyright-logo p {
     font-weight: 600;
   }
 
-  .about-copyright  .copyright-container .copyright-content {
+  .about-copyright .copyright-container .copyright-content {
     width: 795px;
   }
 
-  .about-copyright  .copyright-content .cr-text {
+  .about-copyright .copyright-content .cr-text {
     font-size: 1rem;
     font-weight: 600;
   }
 
-  .about-copyright  .copyright-container .copyright-content p {
+  .about-copyright .copyright-container .copyright-content p {
     margin: 10px;
     display: block;
   }
-
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  #header nav .menu{
+  #header nav .menu {
     gap: 2rem;
   }
-  #landing .landing-content .title{
+
+  #landing .landing-content .title {
     width: auto;
   }
 
@@ -901,6 +893,7 @@
     flex-direction: column;
   }
 }
+
 * {
   margin: 0;
   padding: 0;
