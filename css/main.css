@@ -604,6 +604,7 @@
     font-size: 2rem;
     font-weight: 400;
     color: #ec5242;
+    margin-top: 75px;
   }
 
   .landing-content .title {
@@ -743,11 +744,14 @@
   #partner {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
+    /* justify-content: center; */
     align-items: center;
     color: #e6e6e3;
-    gap: 40px;
+
+    /* gap: 40px; */
     height: 25vh;
+    margin-right: 4rem;
   }
 
   #partner .partner-container {
@@ -770,7 +774,8 @@
   }
 
   .partner-container .partner-item {
-    margin-left: 45px;
+    margin-left: 80px;
+    margin-top: 20px;
   }
 
   #partner .partner-item svg {
@@ -785,7 +790,7 @@
     background-color: #272a31;
     color: #e6e6e3;
     gap: 40px;
-    height: 25vh;
+    height: 32vh;
   }
 
   .about-partner {
@@ -896,7 +901,7 @@
   }
 
   .features {
-    height: 129vh;
+    height: 145vh;
   }
 
   .features-container {
