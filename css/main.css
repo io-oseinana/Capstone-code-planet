@@ -326,7 +326,7 @@
     font-size: 34px;
     cursor: pointer;
     transition: all 0.3s ease;
-    background-color: #fbfbfb;
+    background: transparent;
     border-radius: 10px;
     height: 40px;
   }
