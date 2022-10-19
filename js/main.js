@@ -57,7 +57,7 @@ const featureSpeakes = [
     name: 'Maywell June',
     title: 'Senior Developer at CodePlanet',
     description: 'You can learn from anywhere. You can learn from anywhere. You can learn from anywhere.',
-    image: '/img/speakers/pexels-andrea-piacquadio-733872.jpg',
+    image: 'img/speakers/pexels-andrea-piacquadio-733872.jpg',
     class: 'last',
   },
 ];
