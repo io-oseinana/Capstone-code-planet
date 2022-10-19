@@ -11,6 +11,7 @@
 - HTML
 - CSS
 - JavaScript
+- Boxicons
 
 ## Getting Started
 
@@ -55,7 +56,8 @@ Give a ⭐️ if you like this project!
 - Project Original design idea by [Cindy Shin in Behance](https://creativecommons.org/licenses/by-nc/4.0/)
 - Hat tip to anyone whose code was used
 - Inspiration from [Microverse Bootcamp](https://www.microverse.org)
-- etc
+- Photo by Pixabay from [Pexels](https://www.pexels.com/search/human/)
+- Icons from [Boxicons](https://boxicons.com/)
 
 ## 📝 License
 
